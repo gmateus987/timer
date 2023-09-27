@@ -24,33 +24,34 @@
                 <div class="total-time">
                     <span class="total-time-text">10 min</span>
                 </div>
-                <div class="current-time" id="current-time">
-                    <h1 class="current-time-text">10:00</h1>
+                <div class="current-time">
+                    <h1 class="current-time-text" id="current-time">10:00</h1>
                 </div>
-                <div class="end-time" id="end-time">
+                <div class="end-time">
                     <img src="./images/bell-fill.svg" alt="">
-                    <span class="end-time-text">11:10</span>
+                    <span class="end-time-text" id="end-time"></span>
                 </div>
             </div>
         </div>
         <div class="buttons-container">
-            <button class="start func-button">
-                <img src="./images/play-fill.svg" alt="">
-                <span>Iniciar</span>
-            </button>
-            <button class="delete func-button">
+            <button class="delete func-button" id="deleteButton">
                 <img src="./images/x-lg.svg" alt="">
                 <span>Excluir</span>
             </button>
-            <button class="resume func-button">
+            <button class="start func-button" id="startButton">
+                <img src="./images/play-fill.svg" alt="">
+                <span>Iniciar</span>
+            </button>
+            <button class="resume func-button" id="resumeButton">
                 <img src="./images/play-fill.svg" alt="">
                 <span>Retomar</span>
             </button>
-            <button class="pause func-button">
+            <button class="pause func-button" id="pauseButton">
                 <img src="./images/pause.svg" alt="">
                 <span>Pausar</span>
             </button>
         </div>
     </div>
+    <script src="./js/functions.js"></script>
 </body>
 </html>
