@@ -1,0 +1,120 @@
+* {
+    margin:0;
+    padding:0;
+    outline:none;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.96);
+    height: 100vh;
+    width: 100vw;
+}
+
+.phone-scale {
+    outline: 3px solid dimgray;
+    background-color: black;
+    width: 500px;
+    height: 880px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 45px;
+    margin-top: 10px;
+    margin-right: 10px;
+    gap: 15px;
+}
+
+.icon {
+    /* border: 1px solid red; */
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.timer-container {
+    display: flex;
+    padding-top: 75px;
+    justify-content: center;
+    /* border: 1px solid red; */
+    height: 550px;
+    width: 100%;
+    color: #c897f3;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 50%;
+    outline: 6px solid #c897f3;
+    height: 300px;
+    width: 300px;
+}
+
+.total-time-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.current-time-text {
+    font-size: 65px;
+    font-weight: 500;
+}
+
+.end-time-text {
+    font-size: 16px;
+}
+
+.buttons-container {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex: 1; */
+    width: 100%;
+    height: 275px;
+    gap: 25px;
+    
+}
+
+.func-button {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+    appearance: none;
+    border-style: none;
+    border-radius: 25px;
+    height: 35px;
+    width: 120px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: #121212;
+}
+
+.resume, .start {
+    background-color: #c897f3;
+}
+
+.pause {
+    background-color: rgb(255, 33, 33);
+}
